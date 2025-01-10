@@ -1,0 +1,18 @@
+!*PZCod*
+/backups
+/Crafting
+/db
+/Logs
+/Lua
+/messaging
+/mods
+/Recording
+/Sandbox Presets
+/Workshop
+/Saves/Builder
+/Saves/Sandbox
+*.txt
+*.ini
+*.log
+*.md
+*.zip
