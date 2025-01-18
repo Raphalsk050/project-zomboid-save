@@ -12,7 +12,6 @@
 /Saves/Builder
 /Saves/Sandbox
 *.txt
-*.ini
 *.log
 *.md
 *.zip
