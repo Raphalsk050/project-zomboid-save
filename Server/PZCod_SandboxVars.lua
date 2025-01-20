@@ -1,269 +1,269 @@
 SandboxVars = {
     VERSION = 5,
-    -- Changing this sets the "Population Multiplier" advanced option. Default=Normal
-    -- 1 = Insane
-    -- 2 = Very High
-    -- 3 = High
+    -- Alterar essa configuração definirá a opção avançada "Multiplicador de População". Padrão=Normal
+    -- 1 = Insano
+    -- 2 = Muito Alto
+    -- 3 = Alto
     -- 4 = Normal
-    -- 5 = Low
+    -- 5 = Baixo
     Zombies = 4,
-    -- Default=Urban Focused
-    -- 1 = Urban Focused
+    -- Padrão=Foco Urbano
+    -- 1 = Foco Urbano
     Distribution = 1,
-    -- Default=1 Hour
-    -- 1 = 15 Minutes
-    -- 2 = 30 Minutes
-    -- 3 = 1 Hour
-    -- 4 = 2 Hours
-    -- 5 = 3 Hours
-    -- 6 = 4 Hours
-    -- 7 = 5 Hours
-    -- 8 = 6 Hours
-    -- 9 = 7 Hours
-    -- 10 = 8 Hours
-    -- 11 = 9 Hours
-    -- 12 = 10 Hours
-    -- 13 = 11 Hours
-    -- 14 = 12 Hours
-    -- 15 = 13 Hours
-    -- 16 = 14 Hours
-    -- 17 = 15 Hours
-    -- 18 = 16 Hours
-    -- 19 = 17 Hours
-    -- 20 = 18 Hours
-    -- 21 = 19 Hours
-    -- 22 = 20 Hours
-    -- 23 = 21 Hours
-    -- 24 = 22 Hours
-    -- 25 = 23 Hours
+    -- Padrão=1 Hora
+    -- 1 = 15 Minutos
+    -- 2 = 30 Minutos
+    -- 3 = 1 Hora
+    -- 4 = 2 Horas
+    -- 5 = 3 Horas
+    -- 6 = 4 Horas
+    -- 7 = 5 Horas
+    -- 8 = 6 Horas
+    -- 9 = 7 Horas
+    -- 10 = 8 Horas
+    -- 11 = 9 Horas
+    -- 12 = 10 Horas
+    -- 13 = 11 Horas
+    -- 14 = 12 Horas
+    -- 15 = 13 Horas
+    -- 16 = 14 Horas
+    -- 17 = 15 Horas
+    -- 18 = 16 Horas
+    -- 19 = 17 Horas
+    -- 20 = 18 Horas
+    -- 21 = 19 Horas
+    -- 22 = 20 Horas
+    -- 23 = 21 Horas
+    -- 24 = 22 Horas
+    -- 25 = 23 Horas
     DayLength = 3,
     StartYear = 1,
-    -- Default=July
-    -- 1 = January
-    -- 2 = February
-    -- 3 = March
-    -- 4 = April
-    -- 5 = May
-    -- 6 = June
-    -- 7 = July
-    -- 8 = August
-    -- 9 = September
-    -- 10 = October
-    -- 11 = November
+    -- Padrão=Julho
+    -- 1 = Janeiro
+    -- 2 = Fevereiro
+    -- 3 = Março
+    -- 4 = Abril
+    -- 5 = Maio
+    -- 6 = Junho
+    -- 7 = Julho
+    -- 8 = Agosto
+    -- 9 = Setembro
+    -- 10 = Outubro
+    -- 11 = Novembro
     StartMonth = 7,
     StartDay = 9,
-    -- Default=9 AM
-    -- 1 = 7 AM
-    -- 2 = 9 AM
-    -- 3 = 12 PM
-    -- 4 = 2 PM
-    -- 5 = 5 PM
-    -- 6 = 9 PM
-    -- 7 = 12 AM
-    -- 8 = 2 AM
+    -- Padrão=09:00
+    -- 1 = 07:00
+    -- 2 = 09:00
+    -- 3 = 12:00
+    -- 4 = 14:00
+    -- 5 = 17:00
+    -- 6 = 19:00
+    -- 7 = 00:00
+    -- 8 = 02:00
     StartTime = 2,
-    -- Default=0-30 Days
-    -- 1 = Instant
-    -- 2 = 0-30 Days
-    -- 3 = 0-2 Months
-    -- 4 = 0-6 Months
-    -- 5 = 0-1 Year
-    -- 6 = 0-5 Years
-    -- 7 = 2-6 Months
+    -- Padrão=0-30 Dias
+    -- 1 = Instantâneo
+    -- 2 = 0-30 Dias
+    -- 3 = 0-2 Meses
+    -- 4 = 0-6 Meses
+    -- 5 = 0-1 Ano
+    -- 6 = 0-5 Anos
+    -- 7 = 2-6 Meses
     WaterShut = 2,
-    -- Default=0-30 Days
-    -- 1 = Instant
-    -- 2 = 0-30 Days
-    -- 3 = 0-2 Months
-    -- 4 = 0-6 Months
-    -- 5 = 0-1 Year
-    -- 6 = 0-5 Years
-    -- 7 = 2-6 Months
+    -- Padrão=0-30 Dias
+    -- 1 = Instantâneo
+    -- 2 = 0-30 Dias
+    -- 3 = 0-2 Meses
+    -- 4 = 0-6 Meses
+    -- 5 = 0-1 Ano
+    -- 6 = 0-5 Anos
+    -- 7 = 2-6 Meses
     ElecShut = 2,
-    -- Minimum=-1 Maximum=2147483647 Default=14
+    -- Mínimo = -1 Máximo = 2147483647 Padrão = 14
     WaterShutModifier = 31,
-    -- Minimum=-1 Maximum=2147483647 Default=14
+    -- Mínimo = -1 Máximo = 2147483647 Padrão = 14
     ElecShutModifier = 31,
-    -- Default=Rare
-    -- 1 = None (not recommended)
-    -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
-    -- 4 = Rare
+    -- Padrão=Raro
+    -- 1 = Nenhum
+    -- 2 = Incrivelmente Raro
+    -- 3 = Extremamente Raro
+    -- 4 = Raro
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Comum
     FoodLoot = 4,
-    -- Default=Rare
-    -- 1 = None (not recommended)
-    -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
-    -- 4 = Rare
+    -- Padrão=Raro
+    -- 1 = Nenhum
+    -- 2 = Incrivelmente Raro
+    -- 3 = Extremamente Raro
+    -- 4 = Raro
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Comum
     CannedFoodLoot = 4,
-    -- Default=Rare
-    -- 1 = None (not recommended)
-    -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
-    -- 4 = Rare
+    -- Padrão=Raro
+    -- 1 = Nenhum
+    -- 2 = Incrivelmente Raro
+    -- 3 = Extremamente Raro
+    -- 4 = Raro
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Comum
     LiteratureLoot = 4,
-    -- Seeds, Nails, Saws, Fishing Rods, various tools, etc... Default=Rare
-    -- 1 = None (not recommended)
-    -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
-    -- 4 = Rare
+    -- Sementes, Pregos, Serras, Varas de Pesca, Ferramentas, etc... Padrão=Raro
+    -- 1 = Nenhum
+    -- 2 = Incrivelmente Raro
+    -- 3 = Extremamente Raro
+    -- 4 = Raro
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Comum
     SurvivalGearsLoot = 4,
-    -- Default=Rare
-    -- 1 = None (not recommended)
-    -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
-    -- 4 = Rare
+    -- Padrão=Raro
+    -- 1 = Nenhum
+    -- 2 = Incrivelmente Raro
+    -- 3 = Extremamente Raro
+    -- 4 = Raro
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Comum
     MedicalLoot = 4,
-    -- Default=Rare
-    -- 1 = None (not recommended)
-    -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
-    -- 4 = Rare
+    -- Padrão=Raro
+    -- 1 = Nenhum
+    -- 2 = Incrivelmente Raro
+    -- 3 = Extremamente Raro
+    -- 4 = Raro
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Comum
     WeaponLoot = 4,
-    -- Default=Rare
-    -- 1 = None (not recommended)
-    -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
-    -- 4 = Rare
+    -- Padrão=Raro
+    -- 1 = Nenhum
+    -- 2 = Incrivelmente Raro
+    -- 3 = Extremamente Raro
+    -- 4 = Raro
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Comum
     RangedWeaponLoot = 4,
-    -- Default=Rare
-    -- 1 = None (not recommended)
-    -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
-    -- 4 = Rare
+    -- Padrão=Raro
+    -- 1 = Nenhum
+    -- 2 = Incrivelmente Raro
+    -- 3 = Extremamente Raro
+    -- 4 = Raro
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Comum
     AmmoLoot = 4,
-    -- Default=Rare
-    -- 1 = None (not recommended)
-    -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
-    -- 4 = Rare
+    -- Padrão=Raro
+    -- 1 = Nenhum
+    -- 2 = Incrivelmente Raro
+    -- 3 = Extremamente Raro
+    -- 4 = Raro
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Comum
     MechanicsLoot = 4,
-    -- Everything else. Also affects foraging for all items in Town/Road zones. Default=Rare
-    -- 1 = None (not recommended)
-    -- 2 = Insanely Rare
-    -- 3 = Extremely Rare
-    -- 4 = Rare
+    -- Everything else. Also affects foraging for all items in Town/Road zones. Padrão=Raro
+    -- 1 = Nenhum
+    -- 2 = Incrivelmente Raro
+    -- 3 = Extremamente Raro
+    -- 4 = Raro
     -- 5 = Normal
-    -- 6 = Common
+    -- 6 = Comum
     OtherLoot = 4,
-    -- Controls the global temperature. Default=Normal
-    -- 1 = Very Cold
-    -- 2 = Cold
+    -- Controla a condição global da temperatura. Padrão=Normal
+    -- 1 = Muito Frio
+    -- 2 = Frio
     -- 3 = Normal
-    -- 4 = Hot
+    -- 4 = Quente
     Temperature = 3,
-    -- Controls how often it rains. Default=Normal
-    -- 1 = Very Dry
-    -- 2 = Dry
+    -- Controla a frequência com que ocorrerá chuvas e tempestades. Padrão=Normal
+    -- 1 = Bem Seco
+    -- 2 = Seco
     -- 3 = Normal
-    -- 4 = Rainy
+    -- 4 = Chuvoso
     Rain = 3,
-    -- Number of days until 100% growth. Default=Normal (100 Days)
-    -- 1 = Very Fast (20 Days)
-    -- 2 = Fast (50 Days)
-    -- 3 = Normal (100 Days)
-    -- 4 = Slow (200 Days)
+    -- Número de dias até que a natureza esteja completamente desenvolvida. Padrão=Normal (100 Dias)
+    -- 1 = Muito Rápido (20 Dias)
+    -- 2 = Rápido (50 Dias)
+    -- 3 = Normal (100 Dias)
+    -- 4 = Lento (200 Dias)
     ErosionSpeed = 3,
-    -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
+    -- Número de dias até que a natureza esteja completamente desenvolvida. -1 significa nunca crescer. Zero significa usar a opção "Velocidade da Erosão". Máximo = 36,500 (100 anos). Mínimo = -1 Máximo = 36500 Padrão = 0
     ErosionDays = 0,
-    -- Modifies the base XP gain from actions by this number. Minimum=0,00 Maximum=1000,00 Default=1,00
+    -- Modifica o ganho base de XP das ações multiplicadas por esse número. Mínimo = 0,00 Máximo = 1000,00 Padrão = 1,00
     XpMultiplier = 1.0,
-    -- Determines if the XP multiplier affects passively levelled skills eg. Fitness and Strength.
+    -- Determina se o Multiplicador de XP afeta Habilidades Passivas, como Força e Aptidão Física.
     XpMultiplierAffectsPassive = false,
-    -- Use this to multiply or reduce engine general loudness. Minimum=0,00 Maximum=100,00 Default=1,00
+    -- Aumenta ou reduz o multiplicador de intensidade do som do motor em geral. Mínimo = 0,00 Máximo = 100,00 Padrão = 1,00
     ZombieAttractionMultiplier = 1.0,
-    -- Governs whether cars are locked, need keys to start etc.
+    -- Controla se os veículos estarão trancados ou não, precisarão de chaves para ignição, etc.
     VehicleEasyUse = false,
-    -- Controls the speed of plant growth. Default=Normal
-    -- 1 = Very Fast
-    -- 2 = Fast
+    -- Controla a velocidade de crescimento da plantação. Padrão=Normal
+    -- 1 = Muito Rápido
+    -- 2 = Rápido
     -- 3 = Normal
-    -- 4 = Slow
+    -- 4 = Lento
     Farming = 3,
-    -- Controls the time it takes for food to break down in a composter. Default=2 Weeks
-    -- 1 = 1 Week
-    -- 2 = 2 Weeks
-    -- 3 = 3 Weeks
-    -- 4 = 4 Weeks
-    -- 5 = 6 Weeks
-    -- 6 = 8 Weeks
-    -- 7 = 10 Weeks
+    -- Controla o tempo que leva para o alimento se decompor em uma composteira. Padrão=2 Semanas
+    -- 1 = 1 Semana
+    -- 2 = 2 Semanas
+    -- 3 = 3 Semanas
+    -- 4 = 4 Semanas
+    -- 5 = 6 Semanas
+    -- 6 = 8 Semanas
+    -- 7 = 10 Semanas
     CompostTime = 2,
-    -- How fast character's hunger, thirst and fatigue will decrease. Default=Normal
-    -- 1 = Very Fast
-    -- 2 = Fast
+    -- Define o quão rápido a fome, a sede e a fadiga do personagem irão decair. Padrão=Normal
+    -- 1 = Muito Rápido
+    -- 2 = Rápido
     -- 3 = Normal
-    -- 4 = Slow
+    -- 4 = Lento
     StatsDecrease = 3,
-    -- Controls the abundance of fish and general forage. Default=Normal
-    -- 1 = Very Poor
-    -- 2 = Poor
+    -- Controla a abundância da Pescaria e da Coleta. Padrão=Normal
+    -- 1 = Muito Ruim
+    -- 2 = Ruim
     -- 3 = Normal
-    -- 4 = Abundant
+    -- 4 = Abundante
     NatureAbundance = 3,
-    -- Default=Sometimes
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- Padrão=Algumas Vezes
+    -- 1 = Nunca
+    -- 2 = Extremamente Raro
+    -- 3 = Raro
+    -- 4 = Algumas Vezes
+    -- 5 = Frequentemente
     Alarm = 4,
-    -- How frequently homes and buildings will be discovered locked Default=Very Often
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- Define com que frequência as casas e construções recém-descobertas estarão trancadas. Padrão=Muito Frequentemente
+    -- 1 = Nunca
+    -- 2 = Extremamente Raro
+    -- 3 = Raro
+    -- 4 = Algumas Vezes
+    -- 5 = Frequentemente
     LockedHouses = 6,
-    -- Spawn with chips, water bottle, school bag, baseball bat and a hammer.
+    -- Inicia com salgadinho, garrafa de água, mochila escolar, taco de beisebol e um martelo em seu inventário.
     StarterKit = false,
-    -- Nutritional value of food affects the player's condition.
+    -- O valor nutricional dos alimentos afetarão a condição do jogador.
     Nutrition = true,
-    -- Define how fast the food will spoil inside or outside fridge. Default=Normal
-    -- 1 = Very Fast
-    -- 2 = Fast
+    -- Define o tempo que os alimentos irão estragar dentro ou fora da geladeira. Padrão=Normal
+    -- 1 = Muito Rápido
+    -- 2 = Rápido
     -- 3 = Normal
-    -- 4 = Slow
+    -- 4 = Devagar
     FoodRotSpeed = 3,
-    -- Define how much a fridge will be effective. Default=Normal
-    -- 1 = Very Low
-    -- 2 = Low
+    -- Define o nível de eficiência da geladeira. Padrão=Normal
+    -- 1 = Muito Baixo
+    -- 2 = Baixo
     -- 3 = Normal
-    -- 4 = High
+    -- 4 = Alto
     FridgeFactor = 3,
-    -- Items will respawn in already-looted containers in towns and trailer parks. Items will not respawn in player-made containers. Default=None
-    -- 1 = None
-    -- 2 = Every Day
-    -- 3 = Every Week
-    -- 4 = Every Month
+    -- Itens ressurgirão em recipientes já looteados nas cidades e vizinhanças. Os itens não reaparecerão em recipientes criados pelo jogador. Padrão=Nenhum
+    -- 1 = Nenhum
+    -- 2 = Todos os Dias
+    -- 3 = Uma Vez por Semana
+    -- 4 = Uma Vez por Mês
     LootRespawn = 1,
-    -- When > 0, loot will not respawn in zones that have been visited within this number of in-game hours. Minimum=0 Maximum=2147483647 Default=0
+    -- Se acima de 0, os itens não ressurgirão nos recipientes que foram looteados dentro desse tempo *em horas* de jogo. Mínimo = 0 Máximo = 2147483647 Padrão = 0
     SeenHoursPreventLootRespawn = 0,
-    -- A comma-separated list of item types that will be removed after HoursForWorldItemRemoval hours.
+    -- Lista de itens, separados por vírgula, que serão removidos após o tempo definido em "Tempo de Despawn".
     WorldItemRemovalList = "Base.Hat,Base.Glasses,Base.Maggots",
-    -- Number of hours since an item was dropped on the ground before it is removed.  Items are removed the next time that part of the map is loaded.  Zero means items are not removed. Minimum=0,00 Maximum=2147483647,00 Default=24,00
+    -- Número *em horas* antes do item ser removido, contado a partir do momento em que é colocado no chão. Os itens são removidos assim que a área do mapa é carregada. Quando zero, estes não serão removidos. Mínimo = 0,00 Máximo = 2147483647,00 Padrão = 24,00
     HoursForWorldItemRemoval = 24.0,
-    -- If true, any items *not* in WorldItemRemovalList will be removed.
+    -- Se marcado, os itens que *não* estiverem na lista serão removidos.
     ItemRemovalListBlacklistToggle = false,
-    -- This will affect starting world erosion and food spoilage. Default=0
+    -- Isso afetará o início da erosão do mundo e a validade dos alimentos. Padrão=0
     -- 1 = 0
     -- 2 = 1
     -- 3 = 2
@@ -277,225 +277,225 @@ SandboxVars = {
     -- 11 = 10
     -- 12 = 11
     TimeSinceApo = 1,
-    -- Will influence how much water the plant will lose per day and their ability to avoid disease. Default=Normal
-    -- 1 = Very High
-    -- 2 = High
+    -- Influencia na quantidade de água que o cultivo precisa por dia e a capacidade de evitar pragas. Padrão=Normal
+    -- 1 = Muito Alto
+    -- 2 = Alto
     -- 3 = Normal
-    -- 4 = Low
+    -- 4 = Baixo
     PlantResilience = 3,
-    -- Controls the yield of plants when harvested. Default=Normal
-    -- 1 = Very Poor
-    -- 2 = Poor
+    -- Influenciará na quantidade de vegetais que uma planta produzirá. Padrão=Normal
+    -- 1 = Muito Ruim
+    -- 2 = Ruim
     -- 3 = Normal
-    -- 4 = Abundant
+    -- 4 = Abundante
     PlantAbundance = 3,
-    -- Recovery from being tired from performing actions Default=Normal
-    -- 1 = Very Fast
-    -- 2 = Fast
+    -- Tempo de recuperação do cansaço causado por diversas ações. Padrão=Normal
+    -- 1 = Muito Rápido
+    -- 2 = Rápido
     -- 3 = Normal
-    -- 4 = Slow
+    -- 4 = Lento
     EndRegen = 3,
-    -- How regularly helicopters pass over the event zone. Default=Once
-    -- 1 = Never
-    -- 2 = Once
-    -- 3 = Sometimes
+    -- Frequência com que helicópteros aparecerão na área. Padrão=Uma Vez
+    -- 1 = Nunca
+    -- 2 = Uma Vez
+    -- 3 = Algumas Vezes
     Helicopter = 2,
-    -- How often zombie attracting metagame events like distant gunshots will occur. Default=Sometimes
-    -- 1 = Never
-    -- 2 = Sometimes
+    -- Frequência com que eventos que atraem zumbis ocorrerão, como por exemplo som de tiros. Padrão=Algumas Vezes
+    -- 1 = Nunca
+    -- 2 = Algumas Vezes
     MetaEvent = 2,
-    -- Governs night-time metagame events during the player's sleep. Default=Never
-    -- 1 = Never
-    -- 2 = Sometimes
+    -- Controla os eventos que ocorrerão enquanto o jogador estiver dormindo. Padrão=Nunca
+    -- 1 = Nunca
+    -- 2 = Algumas Vezes
     SleepingEvent = 1,
-    -- Increase/decrease the chance of electrical generators spawning on the map. Default=Sometimes
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Sometimes
-    -- 4 = Often
+    -- Aumenta/Reduz a chance de geradores elétricos aparecerem no mapa. Padrão=Algumas Vezes
+    -- 1 = Extremamente Raro
+    -- 2 = Raro
+    -- 3 = Algumas Vezes
+    -- 4 = Frequentemente
     GeneratorSpawning = 3,
-    -- How much fuel is consumed per in-game hour. Minimum=0,00 Maximum=100,00 Default=1,00
+    -- Quanto consumirá de combustível a cada hora de jogo. Mínimo = 0,00 Máximo = 100,00 Padrão = 1,00
     GeneratorFuelConsumption = 1.0,
-    -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc. Default=Rare
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- Aumenta/Diminui a probabilidade de descobrir refúgios aleatórios pelo mapa: lugares queimados, com diversos itens, sobreviventes mortos, etc. Padrão=Raro
+    -- 1 = Nunca
+    -- 2 = Extremamente Raro
+    -- 3 = Raro
+    -- 4 = Algumas Vezes
+    -- 5 = Frequentemente
     SurvivorHouseChance = 3,
-    -- Default=Rare
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- Padrão=Raro
+    -- 1 = Nunca
+    -- 2 = Extremamente Raro
+    -- 3 = Raro
+    -- 4 = Algumas Vezes
+    -- 5 = Frequentemente
     VehicleStoryChance = 3,
-    -- Default=Rare
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- Padrão=Raro
+    -- 1 = Nunca
+    -- 2 = Extremamente Raro
+    -- 3 = Raro
+    -- 4 = Algumas Vezes
+    -- 5 = Frequentemente
     ZoneStoryChance = 3,
-    -- Impacts on how often a looted map will have annotations marked on it by a deceased survivor. Default=Sometimes
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- Influencia na chance que um mapa encontrado haverá anotações deixadas por um sobrevivente. Padrão=Algumas Vezes
+    -- 1 = Nunca
+    -- 2 = Extremamente Raro
+    -- 3 = Raro
+    -- 4 = Algumas Vezes
+    -- 5 = Frequentemente
     AnnotatedMapChance = 4,
-    -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
+    -- Adiciona pontos extras de traços para serem usados durante a criação do personagem. Mínimo = -100 Máximo = 100 Padrão = 0
     CharacterFreePoints = 0,
-    -- Gives player-built constructions extra hit points so they are more resistant to zombie damage. Default=Normal
-    -- 1 = Very Low
-    -- 2 = Low
+    -- Adiciona resistência extra, contra dano de zumbis, nas construções feitas por jogadores. Padrão=Normal
+    -- 1 = Muito Baixo
+    -- 2 = Baixo
     -- 3 = Normal
-    -- 4 = High
+    -- 4 = Alto
     ConstructionBonusPoints = 3,
-    -- Governs the ambient lighting at night. Default=Normal
-    -- 1 = Pitch Black
-    -- 2 = Dark
+    -- Controla a luminosidade do mapa durante a noite. Padrão=Normal
+    -- 1 = Completamente Escuro
+    -- 2 = Escuro
     -- 3 = Normal
-    NightDarkness = 3,
-    -- Governs the time from dusk to dawn. Default=Normal
-    -- 1 = Always Night
-    -- 2 = Long
+    NightDarkness = 4,
+    -- Define quanto tempo levará para alternar da noite para o dia. Padrão=Normal
+    -- 1 = Sempre Noite
+    -- 2 = Longo
     -- 3 = Normal
-    -- 4 = Short
+    -- 4 = Curto
     NightLength = 3,
-    -- Increase and decrease the impact injuries have on your body, and their healing time. Default=Normal
-    -- 1 = Low
+    -- Aumenta ou diminui o impacto das lesões que acontecem em seu corpo, assim como seu tempo de cura. Padrão=Normal
+    -- 1 = Baixo
     -- 2 = Normal
     InjurySeverity = 2,
-    -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
+    -- Ativa ou desativa a chance de fraturas em partes do corpo quando o sobrevivente recebe impactos fortes, danos de zumbis e quedas.
     BoneFracture = true,
-    -- How long before zombie bodies disappear. Minimum=-1,00 Maximum=2147483647,00 Default=216,00
+    -- Quanto tempo levará para que cadáveres de zumbis desapareçam. Mínimo = -1,00 Máximo = 2147483647,00 Padrão = 216,00
     HoursForCorpseRemoval = 216.0,
-    -- Governs impact that nearby decaying bodies has on the player's health and emotions. Default=Normal
-    -- 1 = None
-    -- 2 = Low
+    -- Controla o impacto que cadáveres em decomposição próximos ao jogador causem efeitos na saúde e humor. Padrão=Normal
+    -- 1 = Nenhum
+    -- 2 = Baixo
     -- 3 = Normal
     DecayingCorpseHealthImpact = 3,
-    -- How much blood is sprayed on floor and walls. Default=Normal
-    -- 1 = None
-    -- 2 = Low
+    -- Quantidade de sangue será derramado no chão e paredes. Padrão=Normal
+    -- 1 = Nenhum
+    -- 2 = Baixo
     -- 3 = Normal
-    -- 4 = High
+    -- 4 = Alto
     BloodLevel = 3,
-    -- Governs how quickly clothing degrades, becomes dirty, and bloodied. Default=Normal
-    -- 1 = Disabled
-    -- 2 = Slow
+    -- Define a velocidade em que as roupas se degradarão, ficar sujas e ensanguentadas. Padrão=Normal
+    -- 1 = Desabilitado
+    -- 2 = Devagar
     -- 3 = Normal
     ClothingDegradation = 3,
     FireSpread = true,
-    -- Number of in-game days before rotten food is removed from the map. -1 means rotten food is never removed. Minimum=-1 Maximum=2147483647 Default=-1
-    DaysForRottenFoodRemoval = -1,
-    -- If enabled, generators will work on exterior tiles, allowing for example to power gas pump.
+    -- Número de dias de jogo para que o alimento podre seja removido do mapa. -1 significa que nunca serão removidos. Mínimo = -1 Máximo = 2147483647 Padrão = -1
+    DaysForRottenFoodRemoval = 1,
+    -- Se habilitado, geradores irão funcionar no lado de fora das construções permitindo que, por exemplo, energizem as bombas de combustíveis.
     AllowExteriorGenerator = true,
-    -- Controls the maximum intensity of fog. Default=Normal
+    -- Controla a intensidade máxima da neblina. Padrão=Normal
     -- 1 = Normal
-    -- 2 = Moderate
+    -- 2 = Moderado
     MaxFogIntensity = 1,
-    -- Controls the maximum intensity of rain. Default=Normal
+    -- Controla a intensidade máxima da chuva. Padrão=Normal
     -- 1 = Normal
-    -- 2 = Moderate
+    -- 2 = Moderado
     MaxRainFxIntensity = 1,
-    -- If disabled snow will not accumulate on ground but will still be visible on vegetation and rooftops.
+    -- Se desabilitado, a neve não acumulará no chão mas ainda ficará visível em vegetações e telhados.
     EnableSnowOnGround = true,
-    -- When enabled certain melee weapons will be able to strike multiple zombies in one hit.
+    -- Quando habilitado, certas armas brancas poderão atingir diversos zumbis em um único acerto.
     MultiHitZombies = true,
-    -- Chance of being bitten when a zombie attacks from behind. Default=High
-    -- 1 = Low
-    -- 2 = Medium
+    -- Chance de ser mordido quando um zumbi atacar pelas costas. Padrão=Alto
+    -- 1 = Baixo
+    -- 2 = Médio
     RearVulnerability = 1,
-    -- Disable to walk unimpeded while melee attacking.
+    -- Impede de andar enquanto ataca corpo a corpo.
     AttackBlockMovements = true,
     AllClothesUnlocked = false,
-    -- if disabled, tainted water will not have a warning marking it as such
+    -- se desativado, o jogador não será alertado quando tiver água contaminada em algum recipiente.
     EnableTaintedWaterText = true,
-    -- Governs how frequently cars are discovered on the map Default=Low
-    -- 1 = None
-    -- 2 = Very Low
-    -- 3 = Low
+    -- Controla a frequência com que veículos surgem no mapa. Padrão=Baixo
+    -- 1 = Nenhum
+    -- 2 = Muito Baixo
+    -- 3 = Baixo
     -- 4 = Normal
     CarSpawnRate = 3,
-    -- Governs the chances of finding vehicles with gas in the tank. Default=Low
-    -- 1 = Low
+    -- Controla as chances de encontrar um carro com gasolina no tanque. Padrão=Baixo
+    -- 1 = Baixo
     -- 2 = Normal
     ChanceHasGas = 1,
-    -- Governs how full gas tanks will be in discovered cars. Default=Low
-    -- 1 = Very Low
-    -- 2 = Low
+    -- Controla quanta gasolina haverá em carros recém-descobertos. Padrão=Baixo
+    -- 1 = Muito Baixo
+    -- 2 = Baixo
     -- 3 = Normal
-    -- 4 = High
-    -- 5 = Very High
+    -- 4 = Alto
+    -- 5 = Muito Alto
     InitialGas = 2,
-    -- Governs how full gas tanks in fuel station will be, initially. Default=Normal
-    -- 1 = Empty
-    -- 2 = Super Low
-    -- 3 = Very Low
-    -- 4 = Low
+    -- Controla a quantidade de gasolina inicial nos postos de combustível. Padrão=Normal
+    -- 1 = Vazio
+    -- 2 = Super Baixo
+    -- 3 = Muito Baixo
+    -- 4 = Baixo
     -- 5 = Normal
-    -- 6 = High
-    -- 7 = Very High
-    -- 8 = Full
-    FuelStationGas = 5,
-    -- How gas-hungry vehicles on the map are. Minimum=0,00 Maximum=100,00 Default=1,00
+    -- 6 = Alto
+    -- 7 = Muito Alto
+    -- 8 = Cheio
+    FuelStationGas = 8,
+    -- Quanto de gasolina os veículos consumirão. Mínimo = 0,00 Máximo = 100,00 Padrão = 1,00
     CarGasConsumption = 1.0,
-    -- Default=Rare
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- Padrão=Raro
+    -- 1 = Nunca
+    -- 2 = Extremamente Raro
+    -- 3 = Raro
+    -- 4 = Algumas Vezes
+    -- 5 = Frequentemente
     LockedCar = 3,
-    -- General condition of vehicles discovered on the map Default=Low
-    -- 1 = Very Low
-    -- 2 = Low
+    -- Condição geral dos veículos descobertos no mapa. Padrão=Baixo
+    -- 1 = Muito Baixo
+    -- 2 = Baixo
     -- 3 = Normal
-    -- 4 = High
+    -- 4 = Alto
     CarGeneralCondition = 2,
-    -- Governs the amount of damage dealt to vehicles that crash. Default=Normal
-    -- 1 = Very Low
-    -- 2 = Low
+    -- Controla a quantidade de danos causados nos veículos em uma batida. Padrão=Normal
+    -- 1 = Muito Baixo
+    -- 2 = Baixo
     -- 3 = Normal
-    -- 4 = High
+    -- 4 = Alto
     CarDamageOnImpact = 3,
-    -- Damage received by the player from the car in a collision. Default=None
-    -- 1 = None
-    -- 2 = Low
+    -- Dano recebido pelo jogador ao ser atropelado por um carro. Padrão=Nenhum
+    -- 1 = Nenhum
+    -- 2 = Baixo
     -- 3 = Normal
-    -- 4 = High
+    -- 4 = Alto
     DamageToPlayerFromHitByACar = 1,
-    -- Enable or disable traffic jams that spawn on the main roads of the map.
+    -- Habilita ou desabilita o surgimento de congestionamento de carros nas estradas principais do mapa.
     TrafficJam = true,
-    -- How frequently cars will be discovered with an alarm. Default=Extremely Rare
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- Frequência com que carros serão encontrados com alarme. Padrão=Extremamente Raro
+    -- 1 = Nunca
+    -- 2 = Extremamente Raro
+    -- 3 = Raro
+    -- 4 = Algumas Vezes
+    -- 5 = Frequentemente
     CarAlarm = 2,
-    -- Enable or disable player getting damage from being in a car accident.
+    -- Habilita ou desabilita danos que jogadores sofrem de um carro em um acidente.
     PlayerDamageFromCrash = true,
-    -- How many in-game hours before a wailing siren shuts off. Minimum=0,00 Maximum=168,00 Default=0,00
+    -- Quantas horas, em jogo, uma sirene ficará tocando antes de desligar automaticamente. Mínimo = 0,00 Máximo = 168,00 Padrão = 0,00
     SirenShutoffHours = 0.0,
-    --  Governs whether player can discover a car that has been maintained and cared for after the infection struck. Default=Low
+    -- Permite que o jogador encontre um carro de sobrevivente que foi bem conservado depois da pandemia. Padrão=Baixo
     -- 1 = None
-    -- 2 = Low
+    -- 2 = Baixo
     -- 3 = Normal
     RecentlySurvivorVehicles = 2,
-    -- Enables vehicles to spawn.
+    -- Permite o spawn de veículos.
     EnableVehicles = true,
-    -- Governs if poisoning food is enabled. Default=True
-    -- 1 = True
-    -- 2 = False
+    -- O jogador é capaz de envenenar alimentos. Padrão=Sim
+    -- 1 = Sim
+    -- 2 = Não
     EnablePoisoning = 1,
-    -- Default=In and around bodies
-    -- 1 = In and around bodies
-    -- 2 = In bodies only
+    -- Padrão=Em cádaveres e ao redor deles
+    -- 1 = Em cádaveres e ao redor deles
+    -- 2 = Apenas em cadáveres
     MaggotSpawn = 1,
-    -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0,00 Maximum=1000,00 Default=1,00
+    -- Quanto maior o valor, mais tempo as lâmpadas duram antes de quebrar. Se 0, as lâmpadas nunca irão quebrar. Não afeta as lâmpadas de faróis do veículo. Mínimo = 0,00 Máximo = 1000,00 Padrão = 1,00
     LightBulbLifespan = 1.0,
     Map = {
         AllowMiniMap = true,
@@ -503,207 +503,401 @@ SandboxVars = {
         MapAllKnown = true,
     },
     ZombieLore = {
-        -- Controls the zombie movement rate. Default=Fast Shamblers
-        -- 1 = Sprinters
-        -- 2 = Fast Shamblers
-        -- 3 = Shamblers
+        -- Controla a movimentação do zumbi. Padrão=Normal
+        -- 1 = Corredores (Sprinters)
+        -- 2 = Normal
+        -- 3 = Lento
         Speed = 2,
-        -- Controls the damage zombies inflict per attack. Default=Normal
-        -- 1 = Superhuman
+        -- Controla o dano de cada ataque causado pelos zumbis. Padrão=Normal
+        -- 1 = Super-humano
         -- 2 = Normal
-        -- 3 = Weak
+        -- 3 = Fraco
         Strength = 3,
-        -- Controls the difficulty to kill zombies. Default=Normal
-        -- 1 = Tough
+        -- Controla a dificuldade de matar zumbis. Padrão=Normal
+        -- 1 = Resistente
         -- 2 = Normal
-        -- 3 = Fragile
+        -- 3 = Frágil
         Toughness = 2,
-        -- Controls how the zombie virus spreads. Default=Blood + Saliva
-        -- 1 = Blood + Saliva
-        -- 2 = Saliva Only
-        -- 3 = Everyone's Infected
-        Transmission = 1,
-        -- Controls how quickly the infection takes effect. Default=2-3 Days
-        -- 1 = Instant
-        -- 2 = 0-30 Seconds
-        -- 3 = 0-1 Minutes
-        -- 4 = 0-12 Hours
-        -- 5 = 2-3 Days
-        -- 6 = 1-2 Weeks
-        Mortality = 5,
-        -- Controls how quickly corpses rise as zombies. Default=0-1 Minutes
-        -- 1 = Instant
-        -- 2 = 0-30 Seconds
-        -- 3 = 0-1 Minutes
-        -- 4 = 0-12 Hours
-        -- 5 = 2-3 Days
+        -- Controla como o vírus é espalhado. Padrão=Sangue + Saliva
+        -- 1 = Sangue + Saliva
+        -- 2 = Apenas Saliva
+        -- 3 = Todos estão Infectados
+        Transmission = 4,
+        -- Controla o tempo de início do desenvolvimento da zumbificação. Padrão=2-3 Dias
+        -- 1 = Instantâneo
+        -- 2 = 0-30 Segundos
+        -- 3 = 0-1 Minutos
+        -- 4 = 0-12 Horas
+        -- 5 = 2-3 Dias
+        -- 6 = 1-2 Semanas
+        Mortality = 7,
+        -- Controla quando os corpos zumbificados renascerão como zumbis. Padrão=0-1 Minutos
+        -- 1 = Instantâneo
+        -- 2 = 0-30 Segundos
+        -- 3 = 0-1 Minutos
+        -- 4 = 0-12 Horas
+        -- 5 = 2-3 Dias
         Reanimate = 3,
-        -- Controls zombie intelligence. Default=Basic Navigation
-        -- 1 = Navigate + Use Doors
-        -- 2 = Navigate
-        -- 3 = Basic Navigation
+        -- Controla a inteligência do zumbi. Padrão=Básico
+        -- 1 = Avançado (Usa Portas)
+        -- 2 = Normal
+        -- 3 = Básico
         Cognition = 3,
-        -- Controls which zombies can crawl under vehicles. Default=Often
-        -- 1 = Crawlers Only
-        -- 2 = Extremely Rare
-        -- 3 = Rare
-        -- 4 = Sometimes
-        -- 5 = Often
-        -- 6 = Very Often
+        -- Controla se os zumbis podem se rastejar por debaixo de veículos. Padrão=Frequentemente
+        -- 1 = Apenas Rastejantes
+        -- 2 = Extremamente Raro
+        -- 3 = Raro
+        -- 4 = Algumas Vezes
+        -- 5 = Frequentemente
+        -- 6 = Muito Frequentemente
         CrawlUnderVehicle = 5,
-        -- Controls how long zombies remember players after seeing or hearing. Default=Normal
-        -- 1 = Long
+        -- Controla o tempo em que os zumbis se lembrarão de jogadores após vê-los ou ouvi-los. Padrão=Normal
+        -- 1 = Longo
         -- 2 = Normal
-        -- 3 = Short
-        -- 4 = None
+        -- 3 = Curto
+        -- 4 = Nenhum
         Memory = 2,
-        -- Controls zombie vision radius. Default=Normal
-        -- 1 = Eagle
+        -- Controla a distância da visão do zumbi. Padrão=Normal
+        -- 1 = Olhos de Águia
         -- 2 = Normal
-        -- 3 = Poor
+        -- 3 = Ruim
         Sight = 2,
-        -- Controls zombie hearing radius. Default=Normal
-        -- 1 = Pinpoint
+        -- Controla a distância da audição do zumbi. Padrão=Normal
+        -- 1 = Alta
         -- 2 = Normal
-        -- 3 = Poor
+        -- 3 = Baixa
         Hearing = 2,
-        -- Zombies that have not seen/heard player can attack doors and constructions while roaming.
+        -- Zumbis que não viram ou escutaram jogadores poderão atacar portas e construções enquanto vagam.
         ThumpNoChasing = false,
-        -- Governs whether or not zombies can destroy player constructions and defences.
+        -- Define se zumbis poderão ou não destruir construções e cercas feitas pelo jogador.
         ThumpOnConstruction = false,
-        -- Governs whether zombies are more active during the day, or whether they act more nocturnally.  Active zombies will use the speed set in the "Speed" setting. Inactive zombies will be slower, and tend not to give chase. Default=Both
-        -- 1 = Both
-        -- 2 = Night
+        -- Define se os zumbis serão mais ativos durante o dia, ou à noite.  Zumbis ativos usarão a velocidade definida na configuração "Velocidade". Zumbis inativos serão mais lentos e não tendem a perseguir o jogador. Padrão=Ambos
+        -- 1 = Ambos
+        -- 2 = Noite
         ActiveOnly = 1,
-        -- Allows zombies to trigger house alarms when breaking through windows and doors.
+        -- Permite que zumbis ativem alarmes de casas quando entrarem através de janelas e portas.
         TriggerHouseAlarm = false,
-        -- When enabled if multiple zombies are attacking they can drag you down to feed. Dependent on zombie strength.
+        -- Se ativo, quando múltiplos zumbis estiverem atacando, estes poderão derrubar você no chão para te devorar. Depende da força do zumbi.
         ZombiesDragDown = false,
-        -- When enabled zombies will have a chance to lunge after climbing over a fence if you're too close.
+        -- Se habilitado, zumbis poderão se jogar através da cerca, quando muito perto de você.
         ZombiesFenceLunge = true,
-        -- Default=Some zombies in the world will pretend to be dead
-        -- 1 = Some zombies in the world will pretend to be dead
-        -- 2 = Some zombies in the world, as well as some you 'kill', can pretend to be dead
+        -- Padrão=Parcial (Apenas zumbis encontrados naturalmente no ambiente)
+        -- 1 = Parcial (Apenas zumbis encontrados naturalmente no ambiente)
+        -- 2 = Total (Inclusive aqueles mortos pelo jogador) 
         DisableFakeDead = 1,
     },
     ZombieConfig = {
-        -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0,00 Maximum=4,00 Default=1,00
+        -- Definido pela opção de população "Quantidade de Zumbis". 4.0 = Insano, Muito Alto = 3.0, 2.0 = Alto, 1.0 = Normal, 0.35 = Baixo, 0.0 = Nenhum. Mínimo = 0,00 Máximo = 4,00 Padrão = 1,00
         PopulationMultiplier = 1.0,
-        -- Adjusts the desired population at the start of the game. Minimum=0,00 Maximum=4,00 Default=1,00
+        -- Ajusta a população do início do jogo. Mínimo = 0,00 Máximo = 4,00 Padrão = 1,00
         PopulationStartMultiplier = 1.0,
-        -- Adjusts the desired population on the peak day. Minimum=0,00 Maximum=4,00 Default=1,50
+        -- Ajusta a população no dia de pico. Mínimo = 0,00 Máximo = 4,00 Padrão = 1,50
         PopulationPeakMultiplier = 1.5,
-        -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
+        -- Dia em que a população alcançará seu pico. Mínimo = 1 Máximo = 365 Padrão = 28
         PopulationPeakDay = 28,
-        -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0,00 Maximum=8760,00 Default=72,00
+        -- Horas necessárias para passar por uma área antes que os zumbis reaparaceçam nessa região. Se for 0, não haverá respawn. Mínimo = 0,00 Máximo = 8760,00 Padrão = 72,00
         RespawnHours = 0.0,
-        -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0,00 Maximum=8760,00 Default=16,00
+        -- Horas em que uma área precisa deixar de ser visitada antes que os zumbis possam reaparacer nela. Mínimo = 0,00 Máximo = 8760,00 Padrão = 16,00
         RespawnUnseenHours = 0.0,
-        -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0,00 Maximum=1,00 Default=0,10
+        -- Fração de população desejada de uma região que reaparecerá de acordo com a configuração "Horas de Respawn". Mínimo = 0,00 Máximo = 1,00 Padrão = 0,10
         RespawnMultiplier = 0.1,
-        -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0,00 Maximum=8760,00 Default=12,00
+        -- Horas necessárias para passar por uma área antes que os zumbis migrem para partes vazias de uma região. Se 0, a migração não acontecerá. Mínimo = 0,00 Máximo = 8760,00 Padrão = 12,00
         RedistributeHours = 12.0,
-        -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
+        -- Distância em que um zumbi tentará percorrer até o local que escutou um som. Mínimo = 10 Máximo = 1000 Padrão = 100
         FollowSoundDistance = 100,
-        -- The size of groups real zombies form when idle. Zero means zombies don't form groups. Groups don't form inside buildings or forest zones. Minimum=0 Maximum=1000 Default=20
+        -- Tamanho máximo das hordas que serão formadas quando os zumbis estiverem ociosos. Se for 0, significa que zumbis não formam hordas.\Hordas não se formam dentro de construções ou áreas de florestas. Mínimo = 0 Máximo = 1000 Padrão = 20
         RallyGroupSize = 20,
-        -- The distance real zombies travel to form groups when idle. Minimum=5 Maximum=50 Default=20
+        -- Distância máxima que os zumbis percorrerão para formar hordas quando ociosos. Mínimo = 5 Máximo = 50 Padrão = 20
         RallyTravelDistance = 20,
-        -- The distance between zombie groups. Minimum=5 Maximum=25 Default=15
+        -- Distância entre as hordas que serão formadas. Mínimo = 5 Máximo = 25 Padrão = 15
         RallyGroupSeparation = 15,
-        -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
+        -- O quão próximo os membros de uma horda estarão de seu líder. Mínimo = 1 Máximo = 10 Padrão = 3
         RallyGroupRadius = 3,
     },
-    AutoMechanics = {
-        -- Minimum=0 Maximum=100 Default=0
-        ConditionLossPercentageThreshold = 0,
-    },
-    CommonSense = {
-        PryingMechanic = true,
-        PartsHighlighter = true,
-        GunStats = true,
-        ColorFilter = false,
-        PryBuildingDoors = true,
-        PryGarageDoors = true,
-        PrySafeDoors = false,
-        PryWindows = true,
-        PryVehicleDoors = true,
-        ShatterVehicleWindows = true,
-        -- Minimum=0 Maximum=10 Default=8
-        ReinforcedDoorLevel = 8,
-        -- Minimum=0 Maximum=100 Default=20
-        WindowShatterChance = 20,
-        -- Minimum=0,00 Maximum=5,00 Default=1,00
-        PryingChanceMultiplier = 1.0,
-        -- Minimum=0 Maximum=100 Default=10
-        CanWoundChance = 10,
-        -- Minimum=0,00 Maximum=10,00 Default=1,00
-        CanWoundIntensity = 1.0,
-    },
-    Firearms = {
-        ScrewdriverReq = false,
-        ImprovisedSuppressors = true,
-        SuppressorBreak = true,
-        BottleSuppressorBreakChance = 1,
-        FlashlightSuppressorBreakChance = 2,
-        SuppressorEffectiveness22 = 3,
-        SuppressorEffectiveness9mm = 4,
-        SuppressorEffectiveness45 = 4,
-        SuppressorEffectiveness44 = 4,
-        SuppressorEffectiveness38 = 3,
-        SuppressorEffectiveness223 = 5,
-        SuppressorEffectiveness308 = 6,
-        SuppressorEffectivenessShotgunShells = 8,
-        SuppressorEffectivenessRevolver = 5,
-        SuppressorEffectivenessImprovised = 9,
-        -- Default=Insanely Rare
-        -- 1 = None (not recommended)
-        -- 2 = Insanely Rare
-        -- 3 = Extremely Rare
-        -- 4 = Rare
-        LootSuppressor = 2,
-        -- Default=Insanely Rare
-        -- 1 = None (not recommended)
-        -- 2 = Insanely Rare
-        -- 3 = Extremely Rare
-        -- 4 = Rare
-        LootAmmoCans = 2,
-        SpawnAK47 = true,
-        SpawnAR15 = true,
-        SpawnColtPeacemaker = true,
-        SpawnColtAce = true,
-        SpawnAnaconda = true,
-        SpawnM733 = true,
-        SpawnPython = true,
-        ColtScout = true,
-        SpawnFNFal = true,
-        SpawnGlock17 = true,
-        SpawnM37 = true,
-        SpawnM16A2 = true,
-        SpawnM24 = true,
-        SpawnM60 = true,
-        SpawnMAC10 = true,
-        SpawnMossberg500 = true,
-        SpawnMossberg500Tactical = true,
-        SpawnMP5 = true,
-        SpawnRemington870 = true,
-        SpawnRossi92 = true,
-        SpawnRuger22 = true,
-        SpawnSKS = true,
-        SpawnSPAS12 = true,
-        SpawnUZI = true,
-        SpawnWinchester73 = true,
-        SpawnWinchester94 = true,
-        SpawnSuppressors = true,
-        SpawnHandgunSuppressors = true,
-        SpawnRifleSuppressors = true,
-        SpawnShotgunSuppressors = false,
-        SpawnRevolverSuppressors = false,
-        SpawnAmmoCans = true,
+    DAMN = {
+        AllowVanillaVehicleDismantling = true,
+        AllowVanillaWorldItemDismantling = true,
     },
     RVInterior = {
-        -- Minimum=0 Maximum=100 Default=20
+        -- Zombies this distance or closer to a player will prevent them from entering vehicle interiors (0 = disabled). Mínimo = 0 Máximo = 100 Padrão = 20
         SafeZombieDistance = 20,
+        -- Zombies currently chasing the player will prevent them from entering vehicle interiors, no matter the distance.
         NotWhenChased = true,
+    },
+    FirstAidOverhaul = {
+        -- Se ativado, quando um jogador injeta Antizina, ela irá redefinir o temporizador de infecção Knox (porcentagem de zombificação) em vez de curá-los diretamente. 
+        AntizinDoesntCure = false,
+        -- Exibe informações trapaceiras sobre ferimentos quando estiver no nível 8 ou superior.
+        ShowDebugInfo = true,
+        -- A partir deste nível o Jogador poderá tratar fraturas. Mínimo = 0 Máximo = 10 Padrão = 1
+        FractureTreatmentLevel = 1,
+        -- Deste nível em diante, o Jogador poderá costurar feridas. Mínimo = 0 Máximo = 10 Padrão = 2
+        StitchingTreatmentLevel = 2,
+        -- Deste nível em diante, o Jogador não terá chance de falhar no tratamento de feridas. Mínimo = 0 Máximo = 10 Padrão = 4
+        FailureLevelThreshold = 4,
+        -- A chance de falha no tratamento de feridas. Mínimo = 0 Máximo = 100 Padrão = 30
+        FailureChance = 30,
+        -- Quanta porcentagem de doença você pode obter com uma única ferida infectada.  Mínimo = 0 Máximo = 100 Padrão = 26
+        MaxDiseasePerWound = 26,
+        -- Quanta porcentagem de doença você pode obter de todas as feridas infectadas combinadas.  Mínimo = 0 Máximo = 100 Padrão = 100
+        InfectionDiseaseLimit = 100,
+        -- Quantos minutos de jogo antes que você possa praticar primeiros socorros em cadáveres novamente. Mínimo = 1 Máximo = 1440 Padrão = 60
+        PracticeCooldown = 60,
+        -- Quanto XP o Jogador recebe ao realizar esta prática em um cadáver. Mínimo = 1 Máximo = 1000 Padrão = 10
+        BandagePracticeXP = 10,
+        -- Quanto XP o Jogador recebe ao realizar esta prática em um cadáver. Mínimo = 1 Máximo = 1000 Padrão = 25
+        SuturePracticeXP = 25,
+        -- Quanto XP o Jogador recebe ao realizar esta prática em um cadáver. Mínimo = 1 Máximo = 1000 Padrão = 50
+        StudyPracticeXP = 50,
+        -- Quanto XP o Jogador recebe ao realizar esta prática em um cadáver. Mínimo = 1 Máximo = 1000 Padrão = 75
+        ScalpelPracticeXP = 75,
+        -- Torna o tratamento de feridas mais rápido ou mais lento. Mínimo = 0,10 Máximo = 5,00 Padrão = 1,00
+        SpeedMultiplier = 1.0,
+    },
+    Firearms = {
+        -- Whether or not a screwdriver is required to put attachments on firearms.
+        ScrewdriverReq = false,
+        -- Whether improvised suppressors are craftable, even if this option is not checked the recipe will show up in-game they just won't be craftable.
+        ImprovisedSuppressors = true,
+        -- With this activated improvised will not break no matter what the break chance is.
+        SuppressorBreak = true,
+        -- Overall chance of an improvised suppressor breaking, even on low there is still a chance that it breaks on the first use. Padrão=One Use
+        -- 1 = One Use
+        -- 2 = High
+        -- 3 = Medium
+        BottleSuppressorBreakChance = 1,
+        -- Overall chance of an improvised suppressor breaking, even on low there is still a chance that it breaks on the first use. Padrão=High
+        -- 1 = One Use
+        -- 2 = High
+        -- 3 = Medium
+        FlashlightSuppressorBreakChance = 2,
+        -- How effective a suppressor is on a firearm that uses .22 LR rounds. Padrão=80%
+        -- 1 = 100%
+        -- 2 = 90%
+        -- 3 = 80%
+        -- 4 = 70%
+        -- 5 = 60%
+        -- 6 = 50%
+        -- 7 = 40%
+        -- 8 = 30%
+        -- 9 = 20%
+        SuppressorEffectiveness22 = 3,
+        -- How effective a suppressor is on a firearm that uses 9mm rounds. Padrão=70%
+        -- 1 = 100%
+        -- 2 = 90%
+        -- 3 = 80%
+        -- 4 = 70%
+        -- 5 = 60%
+        -- 6 = 50%
+        -- 7 = 40%
+        -- 8 = 30%
+        -- 9 = 20%
+        SuppressorEffectiveness9mm = 4,
+        -- How effective a suppressor is on a firearm that uses .45 ACP rounds. Padrão=70%
+        -- 1 = 100%
+        -- 2 = 90%
+        -- 3 = 80%
+        -- 4 = 70%
+        -- 5 = 60%
+        -- 6 = 50%
+        -- 7 = 40%
+        -- 8 = 30%
+        -- 9 = 20%
+        SuppressorEffectiveness45 = 4,
+        -- How effective a suppressor is on a firearm that uses .44 Magnum rounds. Padrão=70%
+        -- 1 = 100%
+        -- 2 = 90%
+        -- 3 = 80%
+        -- 4 = 70%
+        -- 5 = 60%
+        -- 6 = 50%
+        -- 7 = 40%
+        -- 8 = 30%
+        -- 9 = 20%
+        SuppressorEffectiveness44 = 4,
+        -- How effective a suppressor is on a firearm that uses .38 Special rounds. Padrão=80%
+        -- 1 = 100%
+        -- 2 = 90%
+        -- 3 = 80%
+        -- 4 = 70%
+        -- 5 = 60%
+        -- 6 = 50%
+        -- 7 = 40%
+        -- 8 = 30%
+        -- 9 = 20%
+        SuppressorEffectiveness38 = 3,
+        -- How effective a suppressor is on a firearm that uses .223 and 5.56x45mm rounds. Padrão=60%
+        -- 1 = 100%
+        -- 2 = 90%
+        -- 3 = 80%
+        -- 4 = 70%
+        -- 5 = 60%
+        -- 6 = 50%
+        -- 7 = 40%
+        -- 8 = 30%
+        -- 9 = 20%
+        SuppressorEffectiveness223 = 5,
+        -- How effective a suppressor is on a firearm that uses .308 and 7.62x51mm rounds. Padrão=50%
+        -- 1 = 100%
+        -- 2 = 90%
+        -- 3 = 80%
+        -- 4 = 70%
+        -- 5 = 60%
+        -- 6 = 50%
+        -- 7 = 40%
+        -- 8 = 30%
+        -- 9 = 20%
+        SuppressorEffectiveness308 = 6,
+        -- How effective a suppressor is on shotgun. Padrão=30%
+        -- 1 = 100%
+        -- 2 = 90%
+        -- 3 = 80%
+        -- 4 = 70%
+        -- 5 = 60%
+        -- 6 = 50%
+        -- 7 = 40%
+        -- 8 = 30%
+        -- 9 = 20%
+        SuppressorEffectivenessShotgunShells = 8,
+        -- How effective suppressors are on revolvers are, on top of the effectiveness based on caliber. Padrão=60%
+        -- 1 = 100%
+        -- 2 = 90%
+        -- 3 = 80%
+        -- 4 = 70%
+        -- 5 = 60%
+        -- 6 = 50%
+        -- 7 = 40%
+        -- 8 = 30%
+        -- 9 = 20%
+        SuppressorEffectivenessRevolver = 5,
+        -- How effective improvised suppressors are, on top of the effectiveness based on caliber. Padrão=20%
+        -- 1 = 100%
+        -- 2 = 90%
+        -- 3 = 80%
+        -- 4 = 70%
+        -- 5 = 60%
+        -- 6 = 50%
+        -- 7 = 40%
+        -- 8 = 30%
+        -- 9 = 20%
+        SuppressorEffectivenessImprovised = 9,
+        -- Padrão=Incrivelmente Raro
+        -- 1 = Nenhum
+        -- 2 = Incrivelmente Raro
+        -- 3 = Extremamente Raro
+        -- 4 = Raro
+        LootSuppressor = 4,
+        -- Padrão=Incrivelmente Raro
+        -- 1 = Nenhum
+        -- 2 = Incrivelmente Raro
+        -- 3 = Extremamente Raro
+        -- 4 = Raro
+        LootAmmoCans = 4,
+        -- Whether or not AK47 rifles spawn.
+        SpawnAK47 = true,
+        -- Whether AR-15 Rifles spawns.
+        SpawnAR15 = true,
+        -- Whether Colt Single Action Army Revolvers and the associated .44-40 WCF ammo are spawned.
+        SpawnColtPeacemaker = true,
+        -- Whether Colt Ace pistols and the associated .22 LR ammo spawn.
+        SpawnColtAce = true,
+        -- Whether Colt Anaconda Revolvers spawn.
+        SpawnAnaconda = true,
+        -- Whether Colt Commando Assault Rifles spawn.
+        SpawnM733 = true,
+        -- Whether Colt Python Revolvers spawn.
+        SpawnPython = true,
+        -- Whether the Colt Single Action Frontier Scout and the associated .22 LR ammo spawns.
+        ColtScout = true,
+        -- Whether the FN Fal spawns.
+        SpawnFNFal = true,
+        -- Whether Glock 17 Pistols and their magazines spawn.
+        SpawnGlock17 = true,
+        -- Whether the Ithaca 37 spawns.
+        SpawnM37 = true,
+        SpawnM16A2 = true,
+        -- Whether M24 Rifles spawns.
+        SpawnM24 = true,
+        -- Whether the M60 spawns.
+        SpawnM60 = true,
+        -- Whether or not MAC-10 SMGs spawn.
+        SpawnMAC10 = true,
+        -- Whether the Mossberg 590 Shotgun spawns.
+        SpawnMossberg500 = true,
+        -- Whether the Mossberg 590A1 Tactical Shotgun spawns.
+        SpawnMossberg500Tactical = true,
+        -- Whether or not MP5 SMGs spawn.
+        SpawnMP5 = true,
+        -- Whether the Remington 870 Shotgun spawns.
+        SpawnRemington870 = true,
+        -- Whether Rossi Model 92 lever action rifles and the associated .357 ammo are spawned.
+        SpawnRossi92 = true,
+        -- Whether Ruger Model 77 Rifles using the caliber .22 LR spawn.
+        SpawnRuger22 = true,
+        -- Whether or not SKS rifles spawn.
+        SpawnSKS = true,
+        -- Whether or not SPAS12 and LAW12 spawn.
+        SpawnSPAS12 = true,
+        -- Whether or not UZI SMGs spawn.
+        SpawnUZI = true,
+        -- Whether Winchester '73 lever action rifles and the associated .44-40 WCF ammo are spawned.
+        SpawnWinchester73 = true,
+        -- Whether Winchester '94 lever action rifles are spawned.
+        SpawnWinchester94 = true,
+        -- Whether or not any suppressors can be found in the world.
+        SpawnSuppressors = true,
+        -- Whether or not handgun suppressors(9mm, .45 ACP) can be found in the world.
+        SpawnHandgunSuppressors = true,
+        -- Whether or not rifle suppressors(.22 LR, .223/5.56x45mm, and .308/7.62x51mm) can be found in the world.
+        SpawnRifleSuppressors = true,
+        -- Whether or not shotgun suppressors can be found in the world.
+        SpawnShotgunSuppressors = false,
+        -- Whether or not .38 Special & .357 caliber suppressors can be found in the world.
+        SpawnRevolverSuppressors = false,
+        -- Whether or not Ammo Cases can be found in containers.
+        SpawnAmmoCans = true,
+    },
+    CommonSense = {
+        -- Ativa se os jogadores podem abrir portas, janelas, etc. usando uma alavanca.
+        PryingMechanic = true,
+        -- Ativa se deve ser mostrado uma cor que representa o estado de várias peças do veículo no painel do veículo.
+        PartsHighlighter = true,
+        -- Toggles a custom User Interface that displays a gun's ammunition type, current ammo, state, etc.
+        GunStats = true,
+        -- Ativa as cores da interface do usuário amigáveis para aqueles afetados por daltonismo.
+        ColorFilter = false,
+        -- Ativa/desativa se os Jogadores podem arrombar portas de edifícios, como portas de casas, apartamentos, etc.
+        PryBuildingDoors = true,
+        -- Ativa/desativa se os Jogadores podem arrombar portas de garagem.
+        PryGarageDoors = true,
+        -- Ativa/desativa se os Jogadores podem arrombar portas reforçadas (portas de prisão, portas de grade de metal, etc.)
+        -- Essas portas não podem ser arrombadas a menos que o Jogador tenha um nível de Força igual ou superior ao Nível Mínimo da Porta Reforçada.
+        PrySafeDoors = false,
+        -- Ativa/desativa se os Jogadores podem arrombar janelas de edifícios, como janelas de casas, apartamentos, etc.
+        PryWindows = true,
+        -- Ativa/desativa se os Jogadores podem arrombar portas de veículos.
+        PryVehicleDoors = true,
+        -- Determina se os jogadores podem quebrar acidentalmente os vidros das portas do veículo ao falharem em arrombá-las.
+        -- Se ativado, isso pode acontecer aleatoriamente (com base na configuração de Chance de Quebrar Vidro).
+        ShatterVehicleWindows = true,
+        -- Determina o nível mínimo de Força ao qual os jogadores podem forçar as portas reforçadas (portas de prisão, portas de grade de metal, etc.) Mínimo = 0 Máximo = 10 Padrão = 8
+        ReinforcedDoorLevel = 8,
+        -- Determina a probabilidade de quebrar o vidro de uma janela quando um jogador falha uma tentativa de forçá-la. Mínimo = 0 Máximo = 100 Padrão = 20
+        WindowShatterChance = 20,
+        -- Determina a dificuldade de forçar objetos com uma alavanca.
+        -- Um multiplicador mais alto torna mais difícil forçar objetos com sucesso, enquanto um multiplicador mais baixo torna mais fácil.
+        -- 0 = Sempre tem sucesso.
+        -- 1 = Dificuldade padrão.
+        -- 5 = Dificuldade máxima. Mínimo = 0,00 Máximo = 5,00 Padrão = 1,00
+        PryingChanceMultiplier = 1.0,
+        -- Determina a chance de ficar ferido se um jogador não conseguir abrir uma lata com uma ferramenta improvisada. Mínimo = 0 Máximo = 100 Padrão = 10
+        CanWoundChance = 10,
+        -- Multiplica o dano causado a um jogador quando ele não consegue abrir uma lata com uma ferramenta improvisada.
+        -- Pode ser usado para reduzir ou aumentar o dano a seu gosto. Mínimo = 0,00 Máximo = 10,00 Padrão = 1,00
+        CanWoundIntensity = 1.0,
+    },
+    AutoMechanics = {
+        -- Accepted risk percentage of losing part condition. <LINE> 0 (default - recommended for public servers) will protect your vehicles parts conditions. <LINE> 100 let players do whatever they want (recommended for private servers). <LINE> Only active on multiplayer clients or solo users with Verbose on. Mínimo = 0 Máximo = 100 Padrão = 0
+        ConditionLossPercentageThreshold = 0,
     },
 }
